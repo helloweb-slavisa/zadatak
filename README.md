@@ -6,7 +6,7 @@ Datoteke:
 index.html, 
 redvoznje.json, 
 main.css fascila css, 
-response.cee fascikla css, 
+response.css fascikla css, 
 main.js	fascikla js, 
 img.img fascikla img, 
 map.png	fascikla img, 
