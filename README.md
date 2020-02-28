@@ -1,18 +1,27 @@
 zadatak - task
 
 Železničke linije
+
 Datoteke: index.html, redvoznje.json, main.css fascila css, response.css fascikla css, main.js fascikla js, img.img fascikla img, map.png fascikla img, voz.img fascikla img.
+
 Instalacija: Jednostavno kopirajte u proizvoljni direktorijum sve fajlove iz ove arhive, na server, za personalne računare možete koristiti xampp ili wamp (za Windows). Korišćenjem bilo koji browser, u url ukucati putanju do index.html i aplikacija će se pokrenuti.
 Napomena: Ovo je single page aplikacija. Korisnički izgled je prilagodjen za: PC, tablet i telefon.
+
 Autor aplikacije je Slaviša Stamenković, e-mail: helloslavisa@gmail.com
+
 Autorska prava nad aplikacijom ima autor. Aplikacija je besplatana, i može se neograniceno distribuirati ali se ne sme dalje prodavati.
 
 
 Rail timetable 
+
 Files: index.html, red.json, main.css css folder, response.css css folder, main.js js folder, img.img img folder, map.png img folder, voz.img img folder.
+
 Installation: Simply, copy all the files from this archive into the arbitrary directory, to the server, you can use xampp or wamp (for Windows). Using any browser, type url path to index.html and the application will run.
+
 Note: This is a single page application. Application is responsive design.
+
 The author of the application is Slavisa Stamenkovic, e-mail: helloslavisa@gmail.com
+
 Copyright over the application is by the author. The app is free, and can be distributed indefinitely, but not be resold.
 
 
