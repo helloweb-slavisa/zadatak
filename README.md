@@ -23,7 +23,6 @@ Korisnički izgled je prilagodjen za: PC, tablet i telefon.
 
 Autor aplikacije je Slaviša Stamenković, e-mail: helloslavisa@gmail.com
 
-Copyright
 Copyright nad aplikacijom  ima autor. Aplikacija je besplatana, i može se
 neograniceno distribuirati ali se ne sme dalje prodavati.
 
