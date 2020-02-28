@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="red voznje"/>
+		<meta name="keyword" content="voz, prevoz, putovanje, red voznje"/>
+		<meta name="author" content="zwebb">
+		<title>Задатак - Славиша Стаменковић</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/response.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		</head>	
+	<body>
+		<div class="container">
+		<div class="page-header" id="logo">
+			<h1>Ред вожње</h1>
+		</div>
+		<div class="jumbotroon">
+		<p> На нашoj апликацији можете видети све линије и ред вожње, за <b id="vreme"></b>. годину.
+		</p>
+		</div>
+
+		<div class="row">
+			<!-- navigacija ka zeljenim podacima -->
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div id="prikazi1" >Све линије</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div id="pretrazi1" >Претрага поласка</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="dobrodosli">
+				<!-- dobrodosli -->
+				<div class="hello">Железничке линије!</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="pretraga2">
+				<div id="naslov">Мапа</div>
+				<!-- prikaz mape -->
+				<img src="img/map.png" alt="prevoz">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="pretraga">
+				<div id="naslov">Претрага</div>
+					<br>
+					<!-- biranje linije -->
+					<p>Oд: <select id="departure"></select> </p>
+					<p>Дo: <select id="arrival"></select></p>
+					<br>
+					<button class="btn btn-primary" onclick="trazenje()">  <i class="fa fa-search"></i></span> Претрага поласка</button>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="pretraga1">
+				<div id="naslov">Резултат претраге</div>
+				<!-- rezultati pretrage -->
+				<br>
+				<!-- odakle krece linija -->
+				<div id="rezultat"></div>
+				<!-- gde se zavesava linija -->
+				<div id="rezultat1"></div>
+				<!-- broj presedanja -->
+				<div id="rezultat3"></div>
+				<!-- gradovi i vreme u kojima se preseda -->
+				<div id="rezultat2"></div>			
+			</div>
+		</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="prikaz">
+				<div id="naslov">Све линије</div>
+				<center>
+					<!-- prikaz svih linija -->
+					<table id="svi">
+					<tr>
+					<th>полазак</th>
+					<th>време поласка</th>
+					<th>долазак</th>
+					<th>време доласка</th>
+					</tr>
+					<tr >
+					</tr>
+					</table>
+		</div>
+		<br>
+		<marquee behavior="scroll" direction="left" id="reklama">Ускоро нове линије, пратите наш портал и користите све наше повољности и бенефите које вам наша железница може понудити!</marquee>
+		<br>
+		<div class="jumbotroon1">
+			<div class="jumbotroon11"><img src="img/voz.jpg" alt="zeleznica"></div>
+			<div class="jumbotroon22">
+				<p> Поштовани корисници хвала вам што користите наше услуге.</p>
+				<p> Желимо вам угодан и срећан пут.</p>
+			</div>
+			<div style="clear: left;"></div>
+		</div>
+		</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>

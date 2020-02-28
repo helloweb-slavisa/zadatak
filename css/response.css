@@ -1,0 +1,41 @@
+
+@media screen and (max-width:770px) {
+
+div.jumbotroon11{
+	width: 100%;
+	padding: 10%;
+}
+
+div.jumbotroon22{
+	width: 100%;
+	padding: 10%;
+}
+
+div.jumbotroon{
+	font-size: 16px;
+	padding: 10%;
+}
+
+div.jumbotroon1{
+	font-size: 16px;
+}
+
+div.hello{
+	font-size: 20px;
+}
+
+div#prikaz{
+	padding: 1%;
+	font-size: 14px;
+}
+
+}
+
+@media screen and (max-width:480px) {
+
+div#prikaz{
+	padding: 1%;
+	font-size: 10px;
+}	
+
+}

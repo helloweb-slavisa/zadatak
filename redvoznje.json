@@ -1,0 +1,42 @@
+[
+	{"odlazak":"Краљево",
+	"vodlazak":"06.00 ч",
+	"dolazak":"Крушевац",
+	"vdolaska":"07.00 ч"
+	},
+	{"odlazak":"Крушевац",
+	"vodlazak":"07.15 ч",
+	"dolazak":"Лапово",
+	"vdolaska":"08.15 ч"
+	},
+	{"odlazak":"Лапово",
+	"vodlazak":"08.30 ч",
+	"dolazak":"Мала Крсна",
+	"vdolaska":"09.30 ч"
+	},
+	{"odlazak":"Мала Крсна",
+	"vodlazak":"09.45 ч",
+	"dolazak":"Београд",
+	"vdolaska":"10.45 ч"
+	},
+	{"odlazak":"Београд",
+	"vodlazak":"11.00 ч",
+	"dolazak":"Лазаревац",
+	"vdolaska":"12.00 ч"
+	},
+	{"odlazak":"Лазаревац",
+	"vodlazak":"12.15 ч",
+	"dolazak":"Ваљево",
+	"vdolaska":"13.15 ч"
+	},
+	{"odlazak":"Ваљево",
+	"vodlazak":"13.30 h",
+	"dolazak":"Пожега",
+	"vdolaska":"14.30 h"
+	},
+	{"odlazak":"Пожега",
+	"vodlazak":"14.45 h",
+	"dolazak":"Краљево",
+	"vdolaska":"15.45 h"
+	}
+]
