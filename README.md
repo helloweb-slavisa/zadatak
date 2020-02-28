@@ -21,7 +21,6 @@ Napomena:
 Ovo je single page aplikacija.
 Korisnički izgled je prilagodjen za: PC, tablet i telefon.
 
-Autor
 Autor aplikacije je Slaviša Stamenković, e-mail: helloslavisa@gmail.com
 
 Copyright
