@@ -1,16 +1,16 @@
 # zadatak
-==========
+
 Železničke linije
 
 Datoteke:
-index.html	
-redvoznje.json
-main.css 	    fascila css
-response.cee	fascikla css
-main.js		    fascikla js
-img.img		    fascikla img
-map.png	      fascikla img
-voz.img		    fascikla img
+index.html, 
+redvoznje.json, 
+main.css fascila css, 
+response.cee fascikla css, 
+main.js	fascikla js, 
+img.img fascikla img, 
+map.png	fascikla img, 
+voz.img	fascikla img.
 
 Instalacija:
 Jednostavno kopirajte u proizvoljni direktorijum sve fajlove iz ove arhive,
@@ -31,14 +31,7 @@ neograniceno distribuirati ali se ne sme dalje prodavati.
 
 Aplikacija železničke linije
 ==================
-Korišćeni alati:
-1.	HTML 5
-2.	CSS 3
-3.	Bootstrap 4
-4.	Javasript
-5.	jQuery
-6.	Ajax
-7.	json file
+Korišćeni alati: HTML 5, CSS 3,	Bootstrap 4, Javasript, jQuery,	Ajax,	json file.
 Json fajl sadrži sve podatke o postojecim linijama, koje možemo pogledati u meniju sve linije. 
 U meniju pretraga polaska mozemo pogledati mapu linija sa svim destinacijama 
 (od Kraljeva - Krusevac - Cuprija - Lapovo - Beograd - Sabac - Valjevo - CaCak do Kraljeva) 
@@ -52,14 +45,7 @@ Autor aplikacije je dostupan za sve dodatne informacije i obaveštenja. Hvala za
 
 Rail timetable application
 ==================
-Used tools:
-1.	HTML 5
-2.	CSS 3
-3.	Bootstrap 4
-4.	Javasript
-5.	jQuery
-6.	Ajax
-7.	json file
+Used tools:HTML 5, CSS 3,	Bootstrap 4, Javasript, jQuery,	Ajax,	json file.
 The Json file contains all information about existing lines, which can be viewed in the menu all lines. 
 In the departure search menu, we can look map of all the routes with all destinations 
 (from Kraljevo - Krusevac - Cuprija - Lapovo - Belgrade - Sabac - Valjevo - Cacak to Kraljevo) 
