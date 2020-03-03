@@ -3,7 +3,15 @@ zadatak
 
 Železničke linije
 ==================
-Datoteke: index.html, redvoznje.json, main.css fascila css, response.css fascikla css, main.js fascikla js, img.img fascikla img, map.png fascikla img, voz.img fascikla img.
+Datoteke: 
+index.html,
+redvoznje.json, 
+main.css fascila css, 
+response.css fascikla css, 
+main.js fascikla js, 
+img.img fascikla img, 
+map.png fascikla img, 
+voz.img fascikla img.
 
 Instalacija: Jednostavno kopirajte u proizvoljni direktorijum sve fajlove iz ove arhive, na server, za personalne računare možete koristiti xampp ili wamp (za Windows). Korišćenjem bilo koji browser, u url ukucati putanju do index.html i aplikacija će se pokrenuti.
 Napomena: Ovo je single page aplikacija. Korisnički izgled je prilagodjen za: PC, tablet i telefon.
@@ -16,7 +24,15 @@ Autorska prava nad aplikacijom ima autor. Aplikacija je besplatana, i može se n
 Rail timetable 
 ==================
 
-Files: index.html, red.json, main.css css folder, response.css css folder, main.js js folder, img.img img folder, map.png img folder, voz.img img folder.
+Files: 
+index.html, 
+redvoznje.json, 
+main.css css folder, 
+response.css css folder, 
+main.js js folder, 
+img.img img folder, 
+map.png img folder, 
+voz.img img folder.
 
 Installation: Simply, copy all the files from this archive into the arbitrary directory, to the server, you can use xampp or wamp (for Windows). Using any browser, type url path to index.html and the application will run.
 
