@@ -20,7 +20,7 @@
 			$.each(obj,function(key,value){
 			$("#departure").append("<option>"  + value.odlazak +"</option>");
 			$("#arrival").append("<option>"  + value.dolazak +"</option>");
-			$("#svi").append("<tr><td>" + value.odlazak + "</td><td>"+ value.vodlazak + "</td><td>"+	value.dolazak + "</td><td>"+ value.vdolaska + "</td></tr>");
+			$("#svi").append("<tr><td>" + value.odlazak + "</td><td>"+ value.vodlazak + "</td><td>"+ value.dolazak + "</td><td>"+ value.vdolaska + "</td></tr>");
 			korpa.push({"odlazak":value.odlazak,"vodlazak":value.vodlazak,"dolazak":value.dolazak,"vdolaska":value.vdolaska});  //ubacivanje svih linija u memoriski niz
 			});
 			});
