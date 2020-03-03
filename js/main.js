@@ -1,41 +1,60 @@
+		
 		//prikaz godine 
 		var d = new Date();
 		document.getElementById("vreme").innerHTML = d.getFullYear();
 
-
-		korpa=[]; // niz za preuzimanje svih podataka 
-
-
+		// promenljive za prikaz podataka
 		var rezultat=document.getElementById("rezultat");
 		var rezultat1=document.getElementById("rezultat1");
 		var rezultat2=document.getElementById("rezultat2");
 		var rezultat3=document.getElementById("rezultat3");
 		var svi=document.getElementById("svi");
 
-		// ajax......
-		var ourRequest = new XMLHttpRequest();    
-				ourRequest.open('GET', 'redvoznje.json');
-				ourRequest.onload = function(){
-				if (ourRequest.status >= 200 && ourRequest.status < 400){
-				var ourData = JSON.parse(ourRequest.responseText);
-				renderHTML(ourData);
-				}else{
-				alert('Kонектовани смо са сервером, али имамо грешку.');
-				}
-				};
-				ourRequest.send();
+		var korpa=[]; // niz za preuzimanje svih podataka 
 
-				function renderHTML(data){
-				for (i = 0; i < data.length; i++){
-				departure.innerHTML += "<option>" + data[i].odlazak +  "</option>";
-				arrival.innerHTML += "<option>" + data[i].dolazak +  "</option>"; 
-				svi.innerHTML += "<td>" + data[i].odlazak + "</td><td>" + data[i].vodlazak + "</td><td>" + data[i].dolazak + "</td><td>" + data[i].vdolaska + "</td>" ; 
-				korpa.push(data[i]);  //ubacivanje podataka u memoriski niz
-	 			}
-			}
+		//jQuery
+		$(document).ready(function(){	
+			// ajax ....
+			$.getJSON("redvoznje.json", function(obj){		
+			console.log(obj);
+			$.each(obj,function(key,value){
+			$("#departure").append("<option>"  + value.odlazak +"</option>");
+			$("#arrival").append("<option>"  + value.dolazak +"</option>");
+			$("#svi").append("<tr><td>" + value.odlazak + "</td><td>"+ value.vodlazak + "</td><td>"+	value.dolazak + "</td><td>"+ value.vdolaska + "</td></tr>");
+			korpa.push({"odlazak":value.odlazak,"vodlazak":value.vodlazak,"dolazak":value.dolazak,"vdolaska":value.vdolaska});  //ubacivanje svih linija u memoriski niz
+			});
+			});
 
-				console.log(korpa);	//provera dali su se ucitali svi polasci	
-		
+			//prikaz i skrivanje pretrazi polazaka
+			$("#pretrazi1").click(function(){
+			$("#dobrodosli").slideUp("slow");
+			$("#pretraga2").slideDown("slow");
+			$("#pretraga").slideDown("slow");
+			$("#pretraga1").slideDown("slow");
+			$("#prikaz").slideUp("slow");			
+			});
+			
+			//prikaz i skrivanje prikazi polazaka	
+			$("#prikazi1").click(function(){
+			$("#dobrodosli").slideUp("slow");
+			$("#prikaz").slideDown("slow");
+			$("#pretraga2").slideUp("slow");	
+			$("#pretraga").slideUp("slow");	
+			$("#pretraga1").slideUp("slow");				
+			});
+
+			//prikaz za dobrodosli
+			$("#logo").click(function(){
+			$("#dobrodosli").slideDown("slow");
+			$("#prikaz").slideUp("slow");
+			$("#pretraga2").slideUp("slow");	
+			$("#pretraga").slideUp("slow");	
+			$("#pretraga1").slideUp("slow");				
+			});
+		});
+				
+		console.log(korpa);	//provera dali su se ucitali svi polasci	
+
 		//pretraga zadate linije
 		function trazenje() {
 
@@ -94,37 +113,3 @@
 		}
 		}
 		}
-	
-			//prikaz i skrivanje pretrazi polazaka
-			$(document).ready(function(){
-			$("#pretrazi1").click(function(){
-			$("#dobrodosli").slideUp("slow");
-			$("#pretraga2").slideDown("slow");
-			$("#pretraga").slideDown("slow");
-			$("#pretraga1").slideDown("slow");
-			$("#prikaz").slideUp("slow");			
-			});
-			});
-
-			//prikaz i skrivanje prikazi polazaka
-			$(document).ready(function(){
-			$("#prikazi1").click(function(){
-			$("#dobrodosli").slideUp("slow");
-			$("#prikaz").slideDown("slow");
-			$("#pretraga2").slideUp("slow");	
-			$("#pretraga").slideUp("slow");	
-			$("#pretraga1").slideUp("slow");				
-			});
-			});
-
-			//prikaz za dobrodosli
-			$(document).ready(function(){
-			$("#logo").click(function(){
-			$("#dobrodosli").slideDown("slow");
-			$("#prikaz").slideUp("slow");
-			$("#pretraga2").slideUp("slow");	
-			$("#pretraga").slideUp("slow");	
-			$("#pretraga1").slideUp("slow");				
-			});
-			});
-
