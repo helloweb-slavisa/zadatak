@@ -16,7 +16,6 @@
 		$(document).ready(function(){	
 			// ajax ....
 			$.getJSON("redvoznje.json", function(obj){		
-			console.log(obj);
 			$.each(obj,function(key,value){
 			$("#departure").append("<option>"  + value.odlazak +"</option>");
 			$("#arrival").append("<option>"  + value.dolazak +"</option>");
@@ -64,8 +63,8 @@
     	mojeLinije.kreni();
 
 		function Component(departure, arrival) {
-    	this.departure = departure;
-    	this.arrival = arrival;
+    		this.departure = departure;
+    		this.arrival = arrival;
 		this.kreni=function(){
 		
 		//brisanje predhodnog rezultata
